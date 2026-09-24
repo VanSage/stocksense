@@ -1,0 +1,21 @@
+# ---------- Backend (Python) ----------
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+backend/tests/__pycache__/
+**/__pycache__/
+*.pyc
+backend/stocksense.db
+backend/.env
+
+# ---------- Frontend (Node) ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ---------- Editor / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
