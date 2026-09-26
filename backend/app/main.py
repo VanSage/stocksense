@@ -93,6 +93,6 @@ return {
 "docs": "/docs"
 }
 
-@app.get("/health")
+@app.get("/api/health")
 def health():
 return {"status": "healthy"}
